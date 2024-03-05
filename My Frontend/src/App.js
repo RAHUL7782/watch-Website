@@ -1,5 +1,5 @@
 
-import Admin from "./Admin/Admin"
+// import Admin from "./Admin/Admin"
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Home } from "./components/Pages/Home";
@@ -31,7 +31,7 @@ function App() {
             <Route path="/login" element={<LoginCard />} />
             <Route path="/register" element={<RegisterCard />} />
           
-            <Route path="/admin" element={<Admin />} />
+            {/* <Route path="/admin" element={<Admin />} /> */}
           
 
           </Routes>
