@@ -135,7 +135,7 @@ const Seller = [
         brandname: "Sonata",
         img: "https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwcc922507/images/Sonata/Catalog/7138KM03_1.jpg?sw=360&sh=360",
         para: "Titan Neo Splash Blue Dial Quartz Multifunction Stainless Steel Strap Watch For Men" ,
-        price: "₹ 5,5951",
+        price: "₹ 5,595",
     }
 ]
 
@@ -170,6 +170,36 @@ const Seller = [
     
 ]
 
+ const Brand1=[
+    {
+       
+            img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+    {
+        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+    },
+
+]
 
 
 
@@ -179,4 +209,5 @@ const Seller = [
 
 
 
-export { links, homebrand, productdata, Seller,Collection, }
+
+export { links, homebrand, productdata, Seller,Collection,Brand1, }

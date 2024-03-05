@@ -1,0 +1,29 @@
+.brand-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.brand-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-content: center;
+}
+
+.brand-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.brand-item p {
+    margin-top: 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .brand-list {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}

@@ -8,10 +8,14 @@ export const Home = () => {
   return (
     <div>
       <Crousel />
-      <Shopfor/>
-      <Video/>
-    
-   
+      <Shopfor />
+      <Video />
+      {/* <div>
+      <h1> Welcome To Home Page</h1>
+         <button><a href='http://localhost:8000/auth'>Login With Google</a></button> 
+      </div> */}
+
+
     </div>
   );
 };

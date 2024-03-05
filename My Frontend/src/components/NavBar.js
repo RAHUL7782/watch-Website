@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import {  useSelector } from "react-redux"
 import "./NavBar.css";
 import { HamburgetMenuClose, HamburgetMenuOpen } from "./Icons";
 import { FaRegUserCircle } from "react-icons/fa";
@@ -8,6 +9,8 @@ import { FaRegHeart } from "react-icons/fa";
 
 
 function NavBar() {
+  const mycart = useSelector((state)=>state.cartSlice.cart);
+  const itemLength = mycart.length;
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -33,7 +36,7 @@ function NavBar() {
               <li className="nav-item">
                 <Link
                   exact
-                  // to="/admin"
+                  to="/admin"
                   activeClassName="active"
                   className="nav-links"
                   onClick={handleClick}
@@ -115,12 +118,12 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/"
+                to="/shop"
                 activeClassName="active"
                 className="nav-user"
                 onClick={handleClick}
               >
-                <FaShoppingCart />
+                <FaShoppingCart /> {itemLength}
               </Link>
 
 
@@ -129,12 +132,12 @@ function NavBar() {
             <li className="nav-item">
               <Link
                 exact
-                to="/"
+                to="/shop"
                 activeClassName="active"
                 className="nav-user"
                 onClick={handleClick}
               >
-                <FaRegHeart />
+                <FaRegHeart /> {itemLength}
               </Link>
 
 
