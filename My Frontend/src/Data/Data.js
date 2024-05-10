@@ -173,31 +173,49 @@ const Seller = [
  const Brand1=[
     {
        
-            img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+            img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw056c3bc9/images/Fastrack/Catalog/3304ND01_1.jpg?sw=800&sh=800",
+            para:"Fastrack Cerame Quartz Multifunction Black Dial Steel & Ceramic Strap Watch for Guys",
+            price:"MRP ₹ 8,995.00"
         
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwfd6e6095/images/Fastrack/Catalog/3304KD01_1.jpg?sw=800&sh=800" ,
+        
+        para:"Fastrack Cerame Quartz Multifunction Black Dial Steel & Ceramic Strap Watch for Guys",
+        price:" MRP ₹ 7,995.00"
     },
 
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw078d5d90/images/Fastrack/Catalog/3297KM01_1.jpg?sw=800&sh=800",
+
+        para:"Fastrack Automatics Black Dial Stainless Steel Strap Watch for Guys" ,
+        price:" MRP ₹ 9,995.00",
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw7276570b/images/Fastrack/Catalog/3286KM01_1.jpg?sw=800&sh=800" ,
+        para:"Fastrack Thor Quartz Multifunction Red Dial Metal Strap Watch for Guys",
+        price:"MRP ₹ 4,795.00"
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw120fc393/images/Fastrack/Catalog/3286KM03_1.jpg?sw=800&sh=800" ,
+        para:"Fastrack Thor Quartz Multifunction Red Dial Metal Strap Watch for Guys",
+        price:"MRP ₹ 4,795.00"
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dwbbdfb7e0/images/Fastrack/Catalog/38065PP02_1.jpg?sw=800&sh=800" ,
+        para:"Fastrack Streetwear Grey Dial with Grey Colour Strap Watch for Guys",
+        price:"MRP ₹ 2,695.00"
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw10919fa0/images/Fastrack/Catalog/38065PP04_1.jpg?sw=800&sh=800",
+        para:"Fastrack Streetwear Red Dial with Black Colour Strap Watch for Guys ",
+        price:"MRP ₹ 2,695.00"
     },
     {
-        img:"https://www.sonatawatches.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Library-Sites-SonataSharedLibrary/default/dwe8121360/images/homepage/desktop/Blush-D.jpg"
-    },
+        img:"https://www.fastrack.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw120fc393/images/Fastrack/Catalog/3286KM03_1.jpg?sw=800&sh=800",
+        para:"Fastrack Thor Quartz Multifunction Grey Dial Metal Strap Watch for Guys",
+        price:"MRP ₹ 5,195.00"
+    }
 
 ]
 

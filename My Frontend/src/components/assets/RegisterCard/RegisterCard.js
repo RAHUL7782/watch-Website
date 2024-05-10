@@ -33,13 +33,7 @@ const RegisterCard = () => {
                         <h1>Create Account</h1>
                     </div>
                     <div className="register__inputs">
-                        {/* <div className="fname__input__container reg__input__container">
-                            <label className="fname__label input__label">First name</label>
-                            <input type="text" name="userfirstname" required
-                                value={input.userfirstname}
-                                onChange={handleInput} 
-                                className="fname__input register__input" />
-                        </div> */}
+                       
                         <div className="lname__input__container reg__input__container">
                             <label className="lname__label input__label">Full name</label>
                             <input type="text" name="username"

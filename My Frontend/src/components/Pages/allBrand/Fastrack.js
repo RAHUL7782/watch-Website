@@ -1,52 +1,30 @@
+import React from "react";
+import { Brand1 } from "../../../Data/Data";
+import "../allBrand/Fastrack.css"
+
+const Fastrack = () => {
+    return (
+        <>
+            <div className="fastrackmain">
+                {Brand1.map((item, index) => (
+                    <div key={index} className="brand-card-container">
+                        <img src={item.img} alt="brands" />
+                        <div >
+                            <p className="para">{item.para}</p>
+                            <br />
+                            <p className="price">{item.price}</p>
+                        </div>
 
 
-// import React from "react";
-// import "../../Pages/allBrand/Fastrack.css"
+                        <div className="brand-card-buttons">
+                            <button className="add-to-cart-button">Add to Cart</button>
+                            <button className="buy-now-button">Buy Now</button>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </>
+    );
+};
 
-// const Fastrack = () => {
-
-//     // const names = ['John', 'Doe', 'Jane', 'Doe', 'Alice', 'Bob'];
-
-//     // return (
-//     //     <div className="card">
-//     //         <h1>List of Names</h1>
-//     //         <ul>
-//     //             {/* Map over the array of names and render each name as a list item */}
-//     //             {names.map((name, index) => (
-//     //                 <li key={index}>{name}</li>
-
-//     //                 <button className="card-button">AddToCart</button>
-//     //                     <button className="card-button">Buy Now</button>
-//     //             ))}
-//     //         </ul>
-//     //     </div>
-//     // );
-  
-
-
-//         <>
-//             <div className="card">
-//                 <img
-//                     className="card-image"
-//                     src="https://th.bing.com/th/id/OIP.2d6tc6uG5uYH2BdeJPfYfgHaHa?w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7"
-//                     alt="Placeholder"
-//                 />
-//                 <p>
-//                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-//                     condimentum metus id libero interdum, eu interdum arcu porttitor.
-//                     Nulla facilisi.
-//                 </p>
-//                 <div className="card-content">
-
-//                     <div className="button-container">
-//                         <button className="card-button">AddToCart</button>
-//                         <button className="card-button">Buy Now</button>
-//                     </div>
-//                 </div>
-//             </div>
-
-//         </>
-//     );
-// };
-
-// export default Fastrack;
+export default Fastrack;
